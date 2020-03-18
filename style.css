@@ -16,6 +16,8 @@
     padding: 50px;
     border-radius: 10px;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Wierd attempt ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .box::after {
     content: "Date Range";
     font-size: 31px;
