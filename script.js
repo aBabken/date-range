@@ -1,4 +1,4 @@
-function takeData() {
+function takeData() {             // Main function
     let one = document.getElementById('one').value;
     let two = document.getElementById('two').value;
     let a = moment(new Date(one)).twix(new Date(two))
