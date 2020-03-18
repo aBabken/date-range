@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <title>Date Range</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form class="box">
+            <input id="one" class="input__date-one" type="text" placeholder="Input the first date" required>
+            <input id="two" class="input__date-two" type="text" placeholder="Input the second date" required>
+            <button class="submit__date" onclick="takeData()" type="submit">Submit</button>
+            <span class="gap">Answer: </span>
+        </form>
+    </div>
+    <script src="plugin/jquery-1.12.4.js"></script>
+    <script src="plugin/jquery-ui.js"></script>
+    <script src="plugin/moment.min.js"></script>
+    <script src="plugin/twix.js"></script>
+    
+    <script src="dateScript.js"></script>
+</body>
+</html>
