@@ -10,34 +10,3 @@ function takeData() {
 console.clear();              // Просто так захотелось
 $( "#one" ).datepicker();
 $( "#two" ).datepicker();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let dateMinus = (first, second) => {
-//     first = moment(first).format('YYYY-MM-DD');
-//     second = moment(second).format('YYYY-MM-DD');
-//     var itr = moment.twix(new Date(first), new Date(second)).iterate('date');
-//     var range = [];
-//     while(itr.hasNext()) {
-//         range.push(itr.next().format('DD.MM.YYYY'));
-//     }
-//     return range;
-// }
-// console.log(dateMinus('10.10.2019', '04.10.2019'));
