@@ -7,7 +7,7 @@ function takeData() {
     }
    
 }
-console.clear();
+console.clear();              // Просто так захотелось
 $( "#one" ).datepicker();
 $( "#two" ).datepicker();
 
