@@ -7,6 +7,7 @@ function takeData() {
     }
    
 }
+console.clear();
 $( "#one" ).datepicker();
 $( "#two" ).datepicker();
 
